@@ -35,5 +35,5 @@ git add "Day 1 log.txt"
 git commit -am "Updated readme and created a log of day 1 activities"
 # creates a commit of all (-a) changes and adds a comment (-m) for the commit ""
 
-git push
-# pushes the branch to the repository
+git push -u origin begin
+# pushes the branch to the repository. -u origin is needed becasue we created the new branch locally; it pushes the branch upstream and creates the branch in the github repo
