@@ -1,0 +1,39 @@
+First steps
+- Created Public Repository in Github https://github.com/JJDUK/guide-to-git.git
+- Opend VS Code on laptop
+- Ran following commands
+
+ cd c://git/
+ # cd = change directory; c://git/ = location of my git folder on laptop 
+
+ git clone https://github.com/JJDUK/guide-to-git.git
+ # git clone clones a repo from the provided URL
+
+ cd guide-to-git
+ # change directory to the repo folder
+
+ git switch branch -c begin
+ # switch branch to a newly created branch (-c) caled "begin" 
+ 
+ git status
+ # check status to confirm changes
+ 
+ git branch
+ # lists git branches, and shows which one is there
+
+Then I edited the readme with more information and created this Day 1 log.txt
+
+ctrl s on this file to save
+
+What I will do after saving this log:
+
+commands:
+git add README.md
+git add "Day 1 log.txt"
+# adds these updated and new files. Notes: case sensetive; requires quotes if spaces in file name.
+
+git commit -am "Updated readme and created a log of day 1 activities"
+# creates a commit of all (-a) changes and adds a comment (-m) for the commit ""
+
+git push
+# pushes the branch to the repository
